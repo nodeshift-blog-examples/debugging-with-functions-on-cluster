@@ -1,0 +1,17 @@
+name: debugging-with-functions-on-cluster
+namespace: ""
+runtime: node
+image: ""
+imageDigest: ""
+builder: gcr.io/paketo-buildpacks/builder:base
+builders:
+  base: gcr.io/paketo-buildpacks/builder:base
+  default: gcr.io/paketo-buildpacks/builder:base
+  full: gcr.io/paketo-buildpacks/builder:full
+buildpacks: []
+healthEndpoints: {}
+volumes: []
+envs: []
+annotations: {}
+options: {}
+labels: []
